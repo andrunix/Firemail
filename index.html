@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <title>Firebase and Mailer Test</title>
+</head>
+<body>
+  <div id="wrapper">
+      <section id="main_section">
+      <h1>Firebase and Email Test</h1>
+      <div id="upper">
+        <p>
+          This app shows how to send email and
+          add the sender's name and email to Firebase.
+        </p>
+      </div>
+      <div id="mail">
+        <h1>Send us a message!</h1>
+        <div id="error"></div>
+        <div id="form_div">
+        <form id="mail_form" action="contact" method="post">
+          <label for="your_name">Your name: </label><br />
+          <input id="your_name" name="your_name" type="text" size="60" maxlength="200">
+          <br />
+          <label for="your_email">Your email: </label><br />
+          <input id="your_email" name="your_email" type="email" size="60" maxlength="200">
+          <br />
+          <label for="your_message"></label><br />
+          <textarea id="your_message" name="your_message" rows="3" cols="60"></textarea>
+          <br />
+          <input id="submit" type="submit" value="Send">
+          <input id="cancel" type="button" value="Cancel">
+        </form>
+        </div>
+      </div>
+      </section>
+      <footer id="main_footer">
+        we like footers
+      </footer>
+  </div>
+</body>
+</html>
+
